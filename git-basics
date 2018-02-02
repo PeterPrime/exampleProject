@@ -1,0 +1,18 @@
+a Version Control System (VCS) tracks the history of changes on projects
+
+Git: Distributed Version Control System (DVCS)
+      - don't need a conntection to a central repository unlike centralized version control systems
+      - repositories are self-contained units 
+      
+repository (git project): is a collection of files and folders associated with a project
+
+git clone: creates a local copy of a project that already exists remotely
+git merge: merges lines of development toghether, used to combine changes made on two different branches
+
+GitHub flow:
+    - create a branch: topic branches created from the canonical deployment branch (usually master)
+    - add commits: snappshot of the current state of the branch
+    - open a pull request: 
+    - discuss and review code: commenting, testing and reviewing open pull requests
+    - merge: equivalent to a local 'git merge' operation 
+    - deploy: 
